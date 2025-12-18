@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Document</title>
+</head>
+<body>
+    <!--Today I will show you the most important HTML
+    layout tags you will use inside the <body>,
+    such as <header>, <main>, <nav>, and others.
+    -->
+    <header>
+        <!--<header> is a semantic HTML tag used for the top part of a page or a section.
+        It usually contains the main title (like an <h1>), a logo, navigation links (<nav>),
+        and sometimes a short intro or search bar.
+        Key points:
+        • It helps organize the page structure and makes your HTML easier to understand.
+        • You can have more than one <header> on a page (for example, one for the whole site and another inside an <article> or<section>).
+        • <header> does not have to be only at the very top of the page, but it usually is.
+        -->
+        <h1>Website Title</h1><!--<h1> is the main heading of a page. It tells the user (and the browser) what the page is mainly about.-->
+        <nav>
+            <!--<nav> is a semantic tag for navigation.
+            It wraps the main menu links that help
+            users move around the site, like “Home”, “About”, “Contact”.-->
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+     <!--<main> is the semantic tag for the main content of
+     the page — the part that is unique and most important. 
+     It usually holds what the user came to see
+     (articles, content blocks, product lists, etc.).
+     A page should normally have only one <main> element.
+
+     Inside <main>: <section>, <h2>, <p>,<section>
+     A <section> is a thematic block of content. 
+     Use it when you have a clear “topic” or “part” of the page. A section usually includes a heading.
+
+     <h2>
+     <h2> is a second-level heading. It names a section and helps build a clean structure:
+     h1 = page title, h2 = section titles, h3 = smaller subsections.
+
+     <p>
+     <p> is a paragraph for normal text, descriptions, explanations, etc.-->
+        <section>
+            <h2>Section 1</h2>
+            <p>Section text.</p>
+        </section>
+
+        <section>
+            <h2>Section 2</h2>
+            <p>More text.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!--<footer> is the bottom part of a page
+        (or the bottom of a section/article).
+        It usually contains extra information such as copyright,
+        contacts, social links, legal links, or navigation. Like <header>,
+        you can have more than one footer if you use it inside specific blocks,
+        but most pages have one main footer at the bottom.-->
+        <p>© 2025</p>
+    </footer>
+</body>
+</html>
